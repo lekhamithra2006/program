@@ -1,0 +1,12 @@
+l=int(input())
+b=int(input())
+radius=int(input())
+side=int(input())
+area_rectangle=l*b
+area_circle=3.14*radius*radius
+area_triangle=1/2*l*b
+area_square=side*side
+print(area_rectangle)
+print(area_square)
+print(area_circle)
+print(area_triangle)
